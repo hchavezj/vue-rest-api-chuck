@@ -49,12 +49,14 @@ export default {
 }
 .home button {
   font-size: 1.2rem;
-  background-color: whitesmoke;
-  border: 1px, solid, black;
-  color: black;
-  padding: 5px 15px;
-  text-align: center;
-  /*text-decoration: none;*/
-  display: inline-block;
+  background-color: #4293b9;
+  border: 2px solid #4293b9;
+  color: white;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+.home button:hover {
+  background-color: white;
+  color: #4293b9;
 }
 </style>
